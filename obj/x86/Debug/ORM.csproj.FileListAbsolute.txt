@@ -1,0 +1,9 @@
+D:\nTier Generator\ORM-noexe\bin\Debug\ORM.exe
+D:\nTier Generator\ORM-noexe\bin\Debug\ORM.pdb
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.csprojResolveAssemblyReference.cache
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.UI.ORMMain.resources
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.Properties.Resources.resources
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.csproj.GenerateResource.Cache
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.exe.licenses
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.exe
+D:\nTier Generator\ORM-noexe\obj\x86\Debug\ORM.pdb
