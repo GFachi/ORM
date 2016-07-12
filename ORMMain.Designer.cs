@@ -115,6 +115,18 @@ namespace ORM.UI
             this.label11 = new System.Windows.Forms.Label();
             this.xTabWeb = new System.Windows.Forms.TabPage();
             this.grpAspx = new System.Windows.Forms.GroupBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtLinkButton = new System.Windows.Forms.TextBox();
+            this.txtGrid = new System.Windows.Forms.TextBox();
+            this.txtButton = new System.Windows.Forms.TextBox();
+            this.txtLabel = new System.Windows.Forms.TextBox();
+            this.txtTextBox = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.btnAspxFile = new System.Windows.Forms.Button();
             this.txtPrefixAspx = new System.Windows.Forms.TextBox();
             this.txtAspxFile = new System.Windows.Forms.TextBox();
@@ -126,18 +138,6 @@ namespace ORM.UI
             this.btnBuild = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.chkAspx = new System.Windows.Forms.CheckBox();
-            this.txtTitle = new System.Windows.Forms.TextBox();
-            this.txtTextBox = new System.Windows.Forms.TextBox();
-            this.txtLabel = new System.Windows.Forms.TextBox();
-            this.txtButton = new System.Windows.Forms.TextBox();
-            this.txtGrid = new System.Windows.Forms.TextBox();
-            this.txtLinkButton = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.grpSource.SuspendLayout();
             this.grpSQL.SuspendLayout();
             this.grpTextFile.SuspendLayout();
@@ -1037,7 +1037,108 @@ namespace ORM.UI
             this.grpAspx.TabIndex = 0;
             this.grpAspx.TabStop = false;
             this.grpAspx.Text = "Aspx Page";
-            this.grpAspx.Enter += new System.EventHandler(this.grpAspx_Enter);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(342, 122);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(43, 13);
+            this.label29.TabIndex = 59;
+            this.label29.Text = "CssLkB";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(343, 95);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(43, 13);
+            this.label28.TabIndex = 58;
+            this.label28.Text = "CssGrid";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(177, 122);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(50, 13);
+            this.label22.TabIndex = 57;
+            this.label22.Text = "CssLabel";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(177, 95);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(55, 13);
+            this.label21.TabIndex = 56;
+            this.label21.Text = "CssButton";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(9, 122);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(63, 13);
+            this.label20.TabIndex = 55;
+            this.label20.Text = "CssTextBox";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(9, 95);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(44, 13);
+            this.label19.TabIndex = 54;
+            this.label19.Text = "CssTitle";
+            // 
+            // txtLinkButton
+            // 
+            this.txtLinkButton.Location = new System.Drawing.Point(392, 122);
+            this.txtLinkButton.Name = "txtLinkButton";
+            this.txtLinkButton.Size = new System.Drawing.Size(100, 20);
+            this.txtLinkButton.TabIndex = 53;
+            this.txtLinkButton.Text = "btn-link";
+            // 
+            // txtGrid
+            // 
+            this.txtGrid.Location = new System.Drawing.Point(392, 89);
+            this.txtGrid.Name = "txtGrid";
+            this.txtGrid.Size = new System.Drawing.Size(100, 20);
+            this.txtGrid.TabIndex = 52;
+            this.txtGrid.Text = "table table-hover table-bordered";
+            // 
+            // txtButton
+            // 
+            this.txtButton.Location = new System.Drawing.Point(237, 89);
+            this.txtButton.Name = "txtButton";
+            this.txtButton.Size = new System.Drawing.Size(100, 20);
+            this.txtButton.TabIndex = 51;
+            this.txtButton.Text = "btn btn-default";
+            // 
+            // txtLabel
+            // 
+            this.txtLabel.Location = new System.Drawing.Point(237, 122);
+            this.txtLabel.Name = "txtLabel";
+            this.txtLabel.Size = new System.Drawing.Size(100, 20);
+            this.txtLabel.TabIndex = 50;
+            this.txtLabel.Text = "control-label";
+            // 
+            // txtTextBox
+            // 
+            this.txtTextBox.Location = new System.Drawing.Point(71, 122);
+            this.txtTextBox.Name = "txtTextBox";
+            this.txtTextBox.Size = new System.Drawing.Size(100, 20);
+            this.txtTextBox.TabIndex = 49;
+            this.txtTextBox.Text = "form-control";
+            // 
+            // txtTitle
+            // 
+            this.txtTitle.Location = new System.Drawing.Point(71, 89);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(100, 20);
+            this.txtTitle.TabIndex = 48;
+            this.txtTitle.Text = "modal-title";
             // 
             // btnAspxFile
             // 
@@ -1140,108 +1241,6 @@ namespace ORM.UI
             this.chkAspx.Text = "Generate Aspx WebForms";
             this.chkAspx.UseVisualStyleBackColor = true;
             this.chkAspx.CheckStateChanged += new System.EventHandler(this.chkAspx_CheckStateChanged);
-            // 
-            // txtTitle
-            // 
-            this.txtTitle.Location = new System.Drawing.Point(71, 89);
-            this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(100, 20);
-            this.txtTitle.TabIndex = 48;
-            this.txtTitle.Text = "modal-title";
-            // 
-            // txtTextBox
-            // 
-            this.txtTextBox.Location = new System.Drawing.Point(71, 122);
-            this.txtTextBox.Name = "txtTextBox";
-            this.txtTextBox.Size = new System.Drawing.Size(100, 20);
-            this.txtTextBox.TabIndex = 49;
-            this.txtTextBox.Text = "form-control";
-            // 
-            // txtLabel
-            // 
-            this.txtLabel.Location = new System.Drawing.Point(237, 122);
-            this.txtLabel.Name = "txtLabel";
-            this.txtLabel.Size = new System.Drawing.Size(100, 20);
-            this.txtLabel.TabIndex = 50;
-            this.txtLabel.Text = "control-label";
-            // 
-            // txtButton
-            // 
-            this.txtButton.Location = new System.Drawing.Point(237, 89);
-            this.txtButton.Name = "txtButton";
-            this.txtButton.Size = new System.Drawing.Size(100, 20);
-            this.txtButton.TabIndex = 51;
-            this.txtButton.Text = "btn btn-default";
-            // 
-            // txtGrid
-            // 
-            this.txtGrid.Location = new System.Drawing.Point(392, 89);
-            this.txtGrid.Name = "txtGrid";
-            this.txtGrid.Size = new System.Drawing.Size(100, 20);
-            this.txtGrid.TabIndex = 52;
-            this.txtGrid.Text = "table table-hover table-bordered";
-            // 
-            // txtLinkButton
-            // 
-            this.txtLinkButton.Location = new System.Drawing.Point(392, 122);
-            this.txtLinkButton.Name = "txtLinkButton";
-            this.txtLinkButton.Size = new System.Drawing.Size(100, 20);
-            this.txtLinkButton.TabIndex = 53;
-            this.txtLinkButton.Text = "btn-link";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(9, 95);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(44, 13);
-            this.label19.TabIndex = 54;
-            this.label19.Text = "CssTitle";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(9, 122);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(63, 13);
-            this.label20.TabIndex = 55;
-            this.label20.Text = "CssTextBox";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(177, 95);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(55, 13);
-            this.label21.TabIndex = 56;
-            this.label21.Text = "CssButton";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(177, 122);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 13);
-            this.label22.TabIndex = 57;
-            this.label22.Text = "CssLabel";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(343, 95);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(43, 13);
-            this.label28.TabIndex = 58;
-            this.label28.Text = "CssGrid";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(342, 122);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(43, 13);
-            this.label29.TabIndex = 59;
-            this.label29.Text = "CssLkB";
             // 
             // ORMMain
             // 

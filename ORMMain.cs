@@ -4303,10 +4303,6 @@ namespace ORM.UI
 
         #endregion
 
-        private void grpAspx_Enter(object sender, EventArgs e)
-        {
-
-        }
 
 
     }
